@@ -14,11 +14,11 @@ function NavBarLarge(){
                 <a href="#">Podcasts</a>
                 <a href="#">Jobs</a>
                 <div className="flex items-center space-x-6 text-base font-medium">
-                    <div className="flex justify-center items-center bg-green-100 p-2 rounded-full border-2 border-green-200">
+                    <div className="flex justify-center items-center bg-brand-light opacity-8 p-2 rounded-full border-2 border-green-100">
                         <Image src={searchIcon} />
                     </div>
-                    <a href="#" className="p-2 px-4 bg-green-900 text-white rounded-md">Login</a>
-                    <a href="#" className="text-green-900 ">Sign up</a>
+                    <a href="#" className="p-2 px-4 bg-brand text-white rounded-md hover:opacity-90">Login</a>
+                    <a href="#" className="text-brand p-2 px-4 hover:border-2 hover:border-brand hover:bg-brand-light hover:rounded-md">Sign up</a>
                 </div>
             </div>
         </div>
