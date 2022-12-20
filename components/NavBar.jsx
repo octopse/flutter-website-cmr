@@ -2,7 +2,7 @@ import NavBarLarge from "./NavBarLarge"
 
 function NavBar(){
     return( 
-        <nav className="w-full border-b-2 border-gray-300">
+        <nav className="w-full border-b-2 border-gray-100">
             <NavBarLarge />
         </nav>
     )
