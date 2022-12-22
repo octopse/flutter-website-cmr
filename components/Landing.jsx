@@ -19,6 +19,11 @@ function Landing(){
                     </Link>
                 </div>
             </div>
+            <div className="space-x-4 flex">
+                <LandingStat number="106k" title="Members on Meetup" />
+                <LandingStat number="127k" title="Stars on Github" />
+                <LandingStat number="151.4k" title="Followers on Twitter" />
+            </div>
             {/* Right side */}
             <div>
                 
