@@ -13,7 +13,7 @@ function Landing(){
             {/* Left side */}
             <div className="w-1/2 space-y-4">
                 <h1 className="text-6xl font-bold">A commuinty open to everyone</h1>
-                <p className="leading-tight">Flutter Cameroon is an initiative to focus the efforts of many 
+                <p className="leading-tight font-medium opacity-60 ">Flutter Cameroon is an initiative to focus the efforts of many 
                     developers in and around Cameroon to learn, shate and become 
                     produtive using Flutter.
                 </p>
