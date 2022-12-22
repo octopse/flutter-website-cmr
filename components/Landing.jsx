@@ -11,7 +11,7 @@ function Landing(){
     return(
         <section className="flex">
             {/* Left side */}
-            <div className="w-1/2 space-y-4">
+            <div className="w-[55%] space-y-4">
                 <h1 className="text-6xl font-bold">A commuinty open to everyone</h1>
                 <p className="leading-tight font-medium opacity-60 ">Flutter Cameroon is an initiative to focus the efforts of many 
                     developers in and around Cameroon to learn, shate and become 
@@ -31,11 +31,11 @@ function Landing(){
                 </div>
             </div>
             {/* Right side */}
-            <div className="w-1/2 flex items-center justify-end">
-                <div className="w-[30%] h-[500px] relative rounded-full overflow-hidden">
+            <div className="w-[45%] flex items-center justify-end space-x-2">
+                <div className="w-1/4 h-[500px] relative rounded-full overflow-hidden">
                     <Image src={img1} alt="image 1" layout="fill" objectFit="cover"/>
                 </div>
-                <div className="w-[30%] h-[1000px]">
+                <div className="w-1/4 h-[1000px]">
                     <div className="w-full h-1/2 relative rounded-full overflow-hidden">
                         <Image src={img2} alt="image 2" layout="fill" objectFit="cover" />
                     </div>
@@ -43,7 +43,7 @@ function Landing(){
                         <Image src={img3} alt="image 3" layout="fill" objectFit="cover" />
                     </div>
                 </div>
-                <div className="w-[30%] h-[500px] relative rounded-full overflow-hidden">
+                <div className="w-1/4 h-[500px] relative rounded-full overflow-hidden">
                     <Image src={img4} alt="image 4" layout="fill" objectFit="cover" />
                 </div>
             </div>
