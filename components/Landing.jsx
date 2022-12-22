@@ -32,10 +32,10 @@ function Landing(){
             </div>
             {/* Right side */}
             <div className="w-[45%] flex items-center justify-end space-x-2">
-                <div className="w-1/4 h-[500px] relative rounded-full overflow-hidden">
+                <div className="w-1/4 h-[400px] relative rounded-full overflow-hidden">
                     <Image src={img1} alt="image 1" layout="fill" objectFit="cover"/>
                 </div>
-                <div className="w-1/4 h-[1000px]">
+                <div className="w-1/4 h-[800px]">
                     <div className="w-full h-1/2 relative rounded-full overflow-hidden">
                         <Image src={img2} alt="image 2" layout="fill" objectFit="cover" />
                     </div>
@@ -43,7 +43,7 @@ function Landing(){
                         <Image src={img3} alt="image 3" layout="fill" objectFit="cover" />
                     </div>
                 </div>
-                <div className="w-1/4 h-[500px] relative rounded-full overflow-hidden">
+                <div className="w-1/4 h-[400px] relative rounded-full overflow-hidden">
                     <Image src={img4} alt="image 4" layout="fill" objectFit="cover" />
                 </div>
             </div>
