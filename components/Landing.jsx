@@ -9,7 +9,7 @@ import img4 from '../public/images/4.jpeg'
 
 function Landing(){
     return(
-        <section className="flex">
+        <section className="flex items-center relative">
             {/* Left side */}
             <div className="w-[55%] space-y-4">
                 <h1 className="text-6xl font-bold">A commuinty open to everyone</h1>
@@ -24,7 +24,7 @@ function Landing(){
                         <a className="border-2 border-brand text-brand font-medium p-2 rounded-md">Visit forum</a>
                     </Link>
                 </div>
-                <div className="space-x-4 flex">
+                <div className="space-x-4 flex absolute left-0 bottom-8">
                 <LandingStat number="106k" title="Members on Meetup" />
                 <LandingStat number="127k" title="Stars on Github" />
                 <LandingStat number="151.4k" title="Followers on Twitter" />
