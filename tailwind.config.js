@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         brand: {
           DEFAULT: "#007a5e",
+          light: "#f0fdf4",
         }
       }
     },
