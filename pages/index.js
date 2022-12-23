@@ -4,6 +4,8 @@ import Landing from '../components/Landing'
 // import styles from '../styles/Home.module.css'
 
 import NavBar from '../components/NavBar'
+import Partners from '../components/Partners'
+
 import bgImage from '../public/images/6.svg'
 
 export default function Home() {
@@ -18,7 +20,8 @@ export default function Home() {
       <main className="w-full mx-auto bg-contain bg-right-top bg-no-repeat" style={{backgroundImage: `url(${bgImage.src})`}}>
         {/* <NavBar /> */}
         <Landing />
-        
+        <Partners />
+
       </main>
     </>
   )
