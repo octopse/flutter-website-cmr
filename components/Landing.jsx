@@ -35,7 +35,7 @@ function Landing(){
                 <div className="w-1/4 h-[400px] relative rounded-full overflow-hidden">
                     <Image src={img1} alt="image 1" layout="fill" objectFit="cover"/>
                 </div>
-                <div className="w-1/4 h-[800px]">
+                <div className="w-1/4 h-[800px] space-y-2">
                     <div className="w-full h-1/2 relative rounded-full overflow-hidden">
                         <Image src={img2} alt="image 2" layout="fill" objectFit="cover" />
                     </div>
