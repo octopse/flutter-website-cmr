@@ -15,7 +15,7 @@ function Partners(){
                 <h2 className="text-3xl font-semibold">Partners</h2>
                 <p className="opacity-80 mb-8">A very big thank you to all our partners for their continued partnership.
                     If you are interested in being showcased throughout Flutter Cameroon, 
-                    contact <span>sponsor@fluttercm.dev</span> to discuss sponshorship opportunities.
+                    contact <span className="text-brand-yellow">sponsor@fluttercm.dev</span> to discuss sponshorship opportunities.
                 </p>
                 <Link href="#">
                     <a className="p-2 border-2 text-brand-yellow border-brand-yellow rounded-md hover:bg-brand-yellow hover:text-black">Become a partner</a>
