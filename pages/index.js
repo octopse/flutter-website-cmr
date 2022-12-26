@@ -1,10 +1,10 @@
 import Head from 'next/head'
+import Articles from '../components/articles'
 import Landing from '../components/Landing'
-// import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
-
 import NavBar from '../components/NavBar'
 import Partners from '../components/Partners'
+// import Image from 'next/image'
+// import styles from '../styles/Home.module.css'
 
 import bgImage from '../public/images/6.svg'
 
@@ -21,6 +21,7 @@ export default function Home() {
         {/* <NavBar /> */}
         <Landing />
         <Partners />
+        <Articles />
 
       </main>
     </>
