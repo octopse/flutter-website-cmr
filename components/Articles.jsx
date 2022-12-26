@@ -8,7 +8,7 @@ import cardImg4 from '../public/images/17.png'
 
 function Articles(){
     return(
-        <section className="w-4/5 mx-auto">
+        <section className="w-4/5 mx-auto mt-16">
             <h2 className="text-6xl font-bold">Discover popular 
                 <span className="before:content-['\a'] whitespace-pre">articles</span></h2>
             <p className="leading-tight font-medium opacity-60 w-3/5">These articles review the latest news about the framework, but also feedback on our business.
