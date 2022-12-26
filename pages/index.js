@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Articles from '../components/articles'
 import Landing from '../components/Landing'
-import NavBar from '../components/NavBar'
 import Partners from '../components/Partners'
+import Events from '../components/Events'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
@@ -18,10 +18,10 @@ export default function Home() {
       </Head>
 
       <main className="w-full mx-auto bg-contain bg-right-top bg-no-repeat" style={{backgroundImage: `url(${bgImage.src})`}}>
-        {/* <NavBar /> */}
         <Landing />
         <Partners />
         <Articles />
+        <Events />
 
       </main>
     </>
