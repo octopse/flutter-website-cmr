@@ -30,9 +30,9 @@ function Articles(){
                     <ArticlesCard title={"How to Create Stateless Widgets - Flutter Widgets 101 Ep.1"} image={cardImg4} />
                 </div>
         </div>
-            {/* <Link href="#">
+            <Link href="#">
                 <a className="p-2 px-4 mr-4 bg-brand text-white rounded-md hover:opacity-90">See all articles</a>    
-            </Link> */}
+            </Link>
         </section>
     )
 }
