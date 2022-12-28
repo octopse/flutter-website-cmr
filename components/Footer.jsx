@@ -47,9 +47,9 @@ function Footer(){
                 </div>
                 <div className="w-1/4">
                     <h3 className="text-2xl font-semibold mb-4">Join Us</h3>
-                    <p className="opacity-80 cursor-pointer hover:opacity-100">Join our newsletter to receive tutorials, articles and podcasts on web design and programming.</p>
+                    <p className="opacity-80">Join our newsletter to receive tutorials, articles and podcasts on web design and programming.</p>
                     <form className="flex w-full mt-4 space-x-2">
-                        <input type="text" placeholder="Your email address" className="p-2 rounded-md border-2 border-gray-200"/>
+                        <input type="text" placeholder="Your email address" className="p-2 rounded-md border-2 border-gray-200 outline-none"/>
                         <input type="submit" value="Sign up" className="p-2 bg-brand text-white rounded-md cursor-pointer hover:bg-none hover:opacity-80" />
                     </form>
                 </div>
