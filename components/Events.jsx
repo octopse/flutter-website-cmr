@@ -17,20 +17,20 @@ function Events(){
             </p>
             <div className="my-8">
                 <div className="flex space-x-4">
-                    <div className="w-1/2">
+                    <div className="w-1/2 group">
                         <EventsCard image={imgEvent1} title="Flutter at Google I/O 2022" detail="Dig into Flutter's announcements from I/O, including Flutter 3."/>
                     </div>
-                    <div className="w-1/2 pt-4">
+                    <div className="w-1/2 pt-4 group">
                         <EventsCard image={imgEvent2} title="FlutterFestival Cameroon" detail="Today is the big day of our #FlutterFestival Cameroon. 
                                 We expect you massively between 13h and 17h at @ActivSpaces Douala."/>
                     </div>
                 </div>
                 <div className="flex space-x-4 mt-4">
-                    <div className="w-1/3">
+                    <div className="w-1/3 group">
                         <EventsCard image={imgEvent3} title="Flutter Update: App Monetization" detail="Watch Flutter UPdate to get the latest news
                                 about updates to out monetization features."/>
                     </div>
-                    <div className="w-2/3">
+                    <div className="w-2/3 group">
                         <EventsCard image={imgEvent4} title="Flutter Interact 2019" detail="Watch Keynotes and Sessions from Flutter Interract in 2019 and check out the photo gallery to see who was there!"/>
                     </div>
                 </div>
