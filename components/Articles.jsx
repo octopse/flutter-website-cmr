@@ -11,7 +11,7 @@ function Articles(){
         <section className="w-4/5 mx-auto mt-24">
             <h2 className="text-6xl font-bold">Discover popular 
                 <span className="before:content-['\a'] whitespace-pre">articles</span></h2>
-            <p className="opacity-60 w-4/6 text-lg">These articles review the latest news about the framework, but also feedback on our business.
+            <p className="opacity-80 w-4/6 text-lg">These articles review the latest news about the framework, but also feedback on our business.
                 Discover the most popular articles shared by members of the community.
             </p>
             <div className="flex h-[440px] my-8 space-x-2">

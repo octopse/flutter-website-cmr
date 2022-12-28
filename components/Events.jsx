@@ -12,7 +12,7 @@ function Events(){
     return(
         <section className="w-4/5 mx-auto mt-24">
             <h2 className="text-6xl font-bold">Community events</h2>
-            <p className="leading-tight font-medium opacity-60 w-3/5">Find out about all the virtual and physiacl events organized by the different communities in each city. 
+            <p className="opacity-80 w-4/6 text-lg mt-2">Find out about all the virtual and physical events organized by the different communities in each city. 
                 Attend events hosted by the global Flutter community and continue to learn more about Flutter.
             </p>
             <div className="my-8">
