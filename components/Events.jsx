@@ -10,7 +10,7 @@ import imgEvent4 from '../public/images/23.png'
 
 function Events(){
     return(
-        <section className="w-4/5 mx-auto mt-16">
+        <section className="w-4/5 mx-auto mt-24">
             <h2 className="text-6xl font-bold">Community events</h2>
             <p className="leading-tight font-medium opacity-60 w-3/5">Find out about all the virtual and physiacl events organized by the different communities in each city. 
                 Attend events hosted by the global Flutter community and continue to learn more about Flutter.
