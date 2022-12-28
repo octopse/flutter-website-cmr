@@ -19,9 +19,9 @@ function Landing(){
                 </p>
                 <div className="space-x-2">
                     <Link href="#">
-                        <a className="bg-brand text-white p-2 rounded-md">Join the 237community</a></Link>
+                        <a className="bg-brand text-white p-2 rounded-md hover:opacity-80">Join the 237community</a></Link>
                     <Link href="#">
-                        <a className="border-2 border-brand text-brand font-medium p-2 rounded-md">Visit forum</a>
+                        <a className="border-2 border-brand text-brand font-medium p-2 rounded-md hover:bg-brand-light">Visit forum</a>
                     </Link>
                 </div>
                 <div className="space-x-4 flex absolute left-0 bottom-8">
