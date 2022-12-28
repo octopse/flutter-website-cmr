@@ -36,7 +36,7 @@ function Events(){
                 </div>
             </div>
             <Link href="#">
-                <a className="p-2 px-12 text-brand rounded-md border-2 border-brand font-medium hover:bg-brand hover:text-white">See all events</a>    
+                <a className="p-2 px-12 text-brand rounded-md border-2 border-brand bg-brand-light font-medium hover:bg-white">See all events</a>    
             </Link>
 
         </section>
