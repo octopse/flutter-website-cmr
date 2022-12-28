@@ -6,7 +6,7 @@ import searchIcon from '../public/images/29.svg'
 function NavBarLarge(){
     return(
         <div className="w-4/5 py-4 mx-auto flex justify-between items-center ">
-            <Image src={logo} />
+            <a href="#"><Image src={logo} /></a>
             <div className="flex items-center space-x-4 text-lg font-medium">
                 <a href="#" className="hover:text-brand">Events</a>
                 <a href="#" className="hover:text-brand">Forum</a>
