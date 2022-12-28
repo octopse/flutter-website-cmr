@@ -3,6 +3,7 @@ import Articles from '../components/articles'
 import Landing from '../components/Landing'
 import Partners from '../components/Partners'
 import Events from '../components/Events'
+import Newsletter from '../components/Newsletter'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Partners />
         <Articles />
         <Events />
+        <Newsletter />
 
       </main>
     </>
