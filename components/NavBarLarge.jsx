@@ -17,8 +17,8 @@ function NavBarLarge(){
                     <div className="flex justify-center items-center mr-8 bg-brand-light p-2 rounded-full border-2 border-green-100 hover:cursor-pointer hover:border-brand">
                         <Image src={searchIcon} />
                     </div>
-                    <a href="#" className="p-2 px-4 mr-4 bg-brand text-white rounded-md hover:opacity-90">Login</a>
-                    <a href="#" className="text-brand py-2 hover:px-4 hover:border-2 hover:border-brand hover:rounded-md">Sign up</a>
+                    <a href="#" className="p-2 px-4 mr-4 bg-brand border-2 border-brand text-white rounded-md hover:opacity-90">Login</a>
+                    <a href="#" className="text-brand py-2 px-4 border-2 border-brand rounded-md hover:bg-brand-light">Sign up</a>
                 </div>
             </div>
         </div>
