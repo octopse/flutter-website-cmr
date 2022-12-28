@@ -4,6 +4,7 @@ import Landing from '../components/Landing'
 import Partners from '../components/Partners'
 import Events from '../components/Events'
 import Newsletter from '../components/Newsletter'
+import Footer from '../components/Footer'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Articles />
         <Events />
         <Newsletter />
+        <Footer />
 
       </main>
     </>
