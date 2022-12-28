@@ -31,7 +31,7 @@ function Partners(){
                     <Image src={imgPartner4}/>
                 </div>
                 <div className="flex justify-between mt-2">
-                    <img src={imgPartner6.src} className="w-auto h-8" />
+                    <a href="https:www.instagram.com/datk.creative"><img src={imgPartner6.src} className="w-auto h-8" alt="datk Creative logo.@datk.creative" /></a>
                     {/* <div className="h-20 w-auto bg-blue-800 relative overflow-hidden">
                     </div> */}
                     <Image src={imgPartner5}/>
