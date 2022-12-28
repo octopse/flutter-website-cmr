@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/images/11.svg" />
       </Head>
 
-      <main className="w-full mx-auto">
+      <main className="w-full mx-auto max-w-[1600ox]">
         <div className="w-full bg-contain bg-right-bottom bg-no-repeat" style={{backgroundImage: `url(${bgImage.src})`}}>
           <Landing />
         </div>
