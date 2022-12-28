@@ -23,11 +23,11 @@ function Footer(){
                     <p className="opacity-80 cursor-pointer hover:opacity-100">Branding</p>
                     <div className="bg-black flex space-x-2 rounded-md p-2 mt-2 w-fit cursor-pointer"><img src={imgFooter1.src} className="w-auto h-6" /><span className="text-white"> English</span></div>
                     <div className="flex space-x-2 mt-4">
-                       <div className="flex items-center font-medium space-x-2 bg-white w-fit p-2 rounded-md cursor-pointer border-2 border-gray-100 hover:border-black">
+                       <div className="flex items-center font-medium space-x-2 bg-white w-fit p-2 rounded-md cursor-pointer border-2 border-gray-100 hover:border-brand">
                             <Image src={imgFooter2} />
-                            <span className="">Slack</span>
+                            <span>Slack</span>
                         </div>
-                        <div className="flex items-center font-medium space-x-2 bg-white w-fit p-2 rounded-md cursor-pointer border-2 border-gray-100 hover:border-black">
+                        <div className="flex items-center font-medium space-x-2 bg-white w-fit p-2 rounded-md cursor-pointer border-2 border-gray-100 hover:border-brand">
                             <Image src={imgFooter3} />
                             <span>Telegram</span>
                         </div>
