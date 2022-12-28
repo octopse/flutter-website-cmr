@@ -8,7 +8,7 @@ function Newsletter(){
                 <h2 className="text-5xl">Join our newsletter</h2>
                 <p className="font-light opacity-80">Join our newsletter to receive tutorials, article and podcasts on web design and programming.</p>
                 <div className="flex w-full space-x-2 px-16 mt-4">
-                    <input type="text" placeholder="Enter your email address" className="p-2 w-5/6 rounded-md outline-none text-gray-600"/>
+                    <input type="text" placeholder="Enter your email address" className="p-2 w-5/6 rounded-md outline-none text-black"/>
                     <input type="submit" value="Sign up" className="bg-green-400 text-brand rounded-md p-2 w-1/6 cursor-pointer hover:opacity-60" />
                 </div>
             </form>
