@@ -11,7 +11,7 @@ import imgPartner6 from '../public/images/datk.png'
 function Partners(){
     return(
         <section className="mt-12 w-4/5 mx-auto p-8 bg-black text-white rounded-xl flex">
-            <div className="w-3/4">
+            <div className="w-3/4 pr-4">
                 <h2 className="text-3xl font-semibold">Partners</h2>
                 <p className="opacity-80 mb-8">A very big thank you to all our partners for their continued partnership.
                     If you are interested in being showcased throughout Flutter Cameroon, 
@@ -21,7 +21,7 @@ function Partners(){
                     <a className="p-2 border-2 text-brand-yellow border-brand-yellow rounded-md hover:bg-brand-yellow hover:text-black">Become a partner</a>
                 </Link>
             </div>
-            <div className="w-1/4 ">  
+            <div className="w-1/4 flex flex-col justify-between">  
                 <div className="flex justify-between">
                     <Image src={imgPartner1}/>
                     <Image src={imgPartner2}/>
