@@ -21,14 +21,14 @@ function Footer(){
                     <p className="opacity-80 cursor-pointer hover:opacity-100">Podcasts</p>
                     <p className="opacity-80 cursor-pointer hover:opacity-100">Jobs</p>
                     <p className="opacity-80 cursor-pointer hover:opacity-100">Branding</p>
-                    <div className="bg-black flex space-x-2 rounded-md p-2 mt-2 w-fit cursor-pointer"><img src={imgFooter1.src} className="w-auto h-6" /><span className="text-white"> English</span></div>
+                    <div className="bg-black flex space-x-2 rounded-md p-2 mt-2 w-fit cursor-pointer"><img src={imgFooter1.src} alt="Flag icon" className="w-auto h-6" /><span className="text-white"> English</span></div>
                     <div className="flex space-x-2 mt-4">
                        <div className="flex items-center font-medium space-x-2 bg-white w-fit p-2 rounded-md cursor-pointer border-2 border-gray-100 hover:border-brand">
-                            <Image src={imgFooter2} />
+                            <Image src={imgFooter2} alt="Slack logo" />
                             <span>Slack</span>
                         </div>
                         <div className="flex items-center font-medium space-x-2 bg-white w-fit p-2 rounded-md cursor-pointer border-2 border-gray-100 hover:border-brand">
-                            <Image src={imgFooter3} />
+                            <Image src={imgFooter3} alt="Telegram logo" />
                             <span>Telegram</span>
                         </div>
                     </div>
@@ -60,10 +60,10 @@ function Footer(){
                     <a href="#" className="text-brand"> MBAGNA Johan</a>
                 </p>
                 <div className='space-x-2'>
-                    <a href="#"><Image src={imgFooter4}/></a>
-                    <a href="#"><Image src={imgFooter5}/></a>
-                    <a href="#"><Image src={imgFooter6}/></a>
-                    <a href="#"><Image src={imgFooter7}/></a>
+                    <a href="#"><Image src={imgFooter4} alt="Github icon" /></a>
+                    <a href="#"><Image src={imgFooter5} alt="Telegram icon" /></a>
+                    <a href="#"><Image src={imgFooter6} alt="twitter icon" /></a>
+                    <a href="#"><Image src={imgFooter7} alt="x icon" /></a>
                 </div>
             </div>
         </footer>

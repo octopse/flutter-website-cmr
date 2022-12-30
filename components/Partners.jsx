@@ -23,18 +23,18 @@ function Partners(){
             </div>
             <div className="w-1/4 flex flex-col justify-between">  
                 <div className="flex justify-between">
-                    <Image src={imgPartner1}/>
-                    <Image src={imgPartner2}/>
+                    <Image src={imgPartner1} alt="logo like concept" />
+                    <Image src={imgPartner2} alt="logo laravel cameroon" />
                 </div>
                 <div className="flex justify-around -mt-4">
                     <Image src={imgPartner3}/>
                     <Image src={imgPartner4}/>
                 </div>
                 <div className="flex justify-between mt-2">
-                    <a href="https:www.instagram.com/datk.creative"><img src={imgPartner6.src} className="w-auto h-8" alt="datk Creative logo.@datk.creative" /></a>
+                    <a href="https:www.instagram.com/datk.creative"><img src={imgPartner6.src} className="w-auto h-8" alt="logo datk Creative. Instagram and Facebook @datk.creative" /></a>
                     {/* <div className="h-20 w-auto bg-blue-800 relative overflow-hidden">
                     </div> */}
-                    <Image src={imgPartner5}/>
+                    <Image src={imgPartner5} alt="logo GDGDouala" />
                 </div>
             </div>
         </section>
