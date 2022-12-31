@@ -57,7 +57,7 @@ function Footer(){
             <hr className="mt-4 w-full border border-gray-200" />
             <div className="mt-4 flex justify-between mb-4">
                 <p className="font-medium">&copy; 2022 - 2023 Flutter Cameroun. All rights reserve Design by
-                    <a href="#" className="text-brand"> MBAGNA Johan</a>
+                    <a href="#" className="hover:text-brand"> MBAGNA Johan</a>
                 </p>
                 <div className='space-x-2'>
                     <a href="#"><Image src={imgFooter4} alt="Github icon" /></a>
