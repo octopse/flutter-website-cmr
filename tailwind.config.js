@@ -12,6 +12,9 @@ module.exports = {
           light: "#f0fdf4",
           yellow: "#fcd116",
         }
+      }, 
+      screens: {
+        'xsm': '495px',
       }
     },
   },
