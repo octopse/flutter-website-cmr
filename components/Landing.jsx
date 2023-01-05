@@ -9,7 +9,7 @@ import img4 from '../public/images/4.jpeg'
 
 function Landing(){
     return(
-        <section className="flex items-center relative w-4/5 mx-auto">
+        <section className="flex items-center relative w-4/5 h-[800px] mx-auto">
             {/* Left side */}
             <div className="w-[55%] space-y-4">
                 <h1 className="text-6xl font-bold">A commuinty open to everyone</h1>
