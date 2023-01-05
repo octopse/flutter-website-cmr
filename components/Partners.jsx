@@ -21,7 +21,7 @@ function Partners(){
                 <Link href="#">
                     <p className="flex justify-center p-2 text-brand-yellow border-2 border-brand-yellow rounded-md cursor-pointer
                         hover:bg-brand-yellow hover:text-black
-                        xsm:w-fit">Become a partner</p>
+                        sm:w-fit">Become a partner</p>
                 </Link>
             </div>
             <div className="flex flex-wrap justify-center gap-x-4 lg:w-1/4 lg:flex-col lg:justify-between ">  
