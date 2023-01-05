@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
 
       <main className="w-full mx-auto max-w-[1600ox]">
-        <div className="w-full bg-contain bg-right-bottom bg-no-repeat" style={{backgroundImage: `url(${bgImage.src})`}}>
+        <div className="w-full bg-contain bg-top xsm:bg-right-bottom bg-no-repeat" style={{backgroundImage: `url(${bgImage.src})`}}>
           <Landing />
         </div>
         <Partners />
