@@ -16,7 +16,7 @@ function Events(){
                 Attend events hosted by the global Flutter community and continue to learn more about Flutter.
             </p>
             <div className="my-8">
-                <div className="flex space-x-4">
+                <div className="flex gap-x-4">
                     <div className="w-1/2 group">
                         <EventsCard image={imgEvent1} title="Flutter at Google I/O 2022" detail="Dig into Flutter's announcements from I/O, including Flutter 3."/>
                     </div>
@@ -25,7 +25,7 @@ function Events(){
                                 We expect you massively between 13h and 17h at @ActivSpaces Douala."/>
                     </div>
                 </div>
-                <div className="flex space-x-4 mt-4">
+                <div className="flex gap-x-4 mt-4">
                     <div className="w-1/3 group">
                         <EventsCard image={imgEvent3} title="Flutter Update: App Monetization" detail="Watch Flutter UPdate to get the latest news
                                 about updates to out monetization features."/>
