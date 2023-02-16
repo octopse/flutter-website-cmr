@@ -19,8 +19,8 @@ function Landing(){
         rewind: 'true'
   };
     return(
-        <section className="w-11/12 mx-auto flex flex-col relative h-[800px]
-            xsm:flex-row xsm:items-center xsm:justify-center
+        <section className="w-11/12 mx-auto flex flex-col relative
+            xsm:h-[800px] xsm:flex-row xsm:items-center xsm:justify-center
             lg:w-4/5">
             <div className="w-full mt-32 xsm:hidden">
                 <Splide options={options} className="h-full w-full">
@@ -41,11 +41,13 @@ function Landing(){
                     developers in and around Cameroon to learn, shate and become 
                     produtive using Flutter.
                 </p>
-                <div className="space-x-2">
+                <div className="gap-2 w-full grid grid-rows-2 text-center
+                    xsm:grid-rows-1 xsm:grid-cols-2 xsm:w-fit xsm:text-left">
                     <Link href="#">
                         <a className="bg-brand text-white p-2 rounded-md hover:opacity-80">Join the 237community</a></Link>
                     <Link href="#">
-                        <a className="border-2 border-brand text-brand font-medium p-2 rounded-md hover:bg-brand-light">Visit forum</a>
+                        <a className="border-2 border-brand text-brand font-medium p-2 rounded-md hover:bg-brand-light
+                                    xsm:w-fit">Visit forum</a>
                     </Link>
                 </div>
                 <div className="space-x-4 flex xsm:absolute xsm:left-0 xsm:bottom-8">
