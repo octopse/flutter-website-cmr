@@ -10,7 +10,7 @@ import imgPartner6 from '../public/images/datk.png'
 
 function Partners(){
     return(
-        <section className="mt-24 w-11/12 mx-auto p-4 lg:p-8 bg-black text-white rounded-3xl flex flex-col
+        <section className="mt-8 w-11/12 mx-auto p-4 lg:p-8 bg-black text-white rounded-3xl flex flex-col
             lg:w-4/5 lg:flex-row lg:mt-12">
             <div className="w-full lg:pr-4 lg:w-3/4">
                 <h2 className="text-3xl font-semibold">Partners</h2>
