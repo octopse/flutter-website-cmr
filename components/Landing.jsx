@@ -1,6 +1,8 @@
 import Link from 'next/Link'
 import Image from 'next/image'
 import LandingStat from "./LandingStat"
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 import img1 from '../public/images/1.jpeg'
 import img2 from '../public/images/2.jpeg'
@@ -8,14 +10,28 @@ import img3 from '../public/images/3.jpeg'
 import img4 from '../public/images/4.jpeg'
 
 function Landing(){
+    const carouselImages = [img1, img2, img3, img4]
+
+    const options = {
+        arrows: false,
+            autoplay: true,
+            interval: '1600',
+        rewind: 'true'
+  };
     return(
         <section className="w-11/12 mx-auto flex flex-col relative h-[800px]
             xsm:flex-row xsm:items-center xsm:justify-center
             lg:w-4/5">
             <div className="w-full mt-32 xsm:hidden">
-                <div className="w-full h-[400px] relative rounded-[60px] overflow-hidden">
-                    <Image src={img3} alt="image 1" layout="fill" objectFit="cover"/>
-                </div>
+                <Splide options={options} className="h-full w-full">
+                    {carouselImages.map( ( slide, index ) => (
+                        <SplideSlide key={ index }>
+                            <div className="w-full h-[400px] relative rounded-[60px] overflow-hidden ">
+                                <Image src={slide} alt="image 1" layout="fill" objectFit="cover"/>
+                            </div>
+                        </SplideSlide>
+                        ) ) }
+                </Splide>
             </div>
             {/* Left side */}
             <div className="w-full space-y-4 
