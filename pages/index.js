@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import Articles from '../components/articles'
 import Landing from '../components/Landing'
@@ -5,12 +6,20 @@ import Partners from '../components/Partners'
 import Events from '../components/Events'
 import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
+import NavBar from '../components/NavBar'
+import NavBarMobileMenu from '../components/NavBarMobileMenu'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
 import bgImage from '../public/images/6.svg'
 
 export default function Home() {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const DisplayMobileMenu = () => {
+    setShowMobileMenu(!showMobileMenu)
+  }
+
   return (
     <>
       <Head>
@@ -19,9 +28,11 @@ export default function Home() {
         <link rel="icon" href="/images/11.svg" />
       </Head>
 
-      <main className="w-full mx-auto max-w-[1600px]">
+      <main className="w-full mx-auto max-w-[1600px] relative">
+        <NavBar DisplayMobileMenu={DisplayMobileMenu}/>
         <div className="w-full bg-contain bg-top xsm:bg-right-bottom bg-no-repeat" style={{backgroundImage: `url(${bgImage.src})`}}>
           <Landing />
+          {showMobileMenu ? <NavBarMobileMenu DisplayMobileMenu={DisplayMobileMenu}/> : null}
         </div>
         <Partners />
         <Articles />
