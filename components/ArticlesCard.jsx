@@ -2,7 +2,7 @@
 
 function ArticlesCard({title, image}){
     return(
-        <div className="group p-4 w-full h-full bg-no-repeat bg-center bg-cover rounded-xl relative overflow-hidden" style={{backgroundImage: `url(${image.src})`}}>
+        <div className="group p-4 w-full h-full bg-no-repeat bg-center bg-cover rounded-xl relative overflow-hidden bg-brand" style={{backgroundImage: `url(${image.src})`}}>
             <h3 className="text-white font-semibold group-hover:-translate-y-20">{title}</h3>
             <div className="w-full bg-white p-4 rounded-xl space-y-2 border-2 border-gray-300 absolute left-0 bottom-0 translate-y-52 hidden group-hover:block group-hover:translate-y-0">
                 <div className="flex mt-2 space-x-4">

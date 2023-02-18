@@ -26,7 +26,7 @@ function Landing(){
                 <Splide options={options} className="h-full w-full">
                     {carouselImages.map( ( slide, index ) => (
                         <SplideSlide key={ index }>
-                            <div className="w-full h-[400px] relative rounded-[60px] overflow-hidden ">
+                            <div className="w-full h-[400px] relative rounded-[60px] overflow-hidden bg-brand">
                                 <Image src={slide} alt="image 1" layout="fill" objectFit="cover"/>
                             </div>
                         </SplideSlide>
@@ -59,18 +59,18 @@ function Landing(){
             {/* Right side */}
             <div className="hidden 
                 lg:w-[45%] lg:flex lg:items-center lg:justify-end lg:space-x-2 ">
-                <div className="w-1/4 h-[400px] relative rounded-full overflow-hidden">
+                <div className="w-1/4 h-[400px] relative rounded-full overflow-hidden bg-brand">
                     <Image src={img1} alt="image 1" layout="fill" objectFit="cover"/>
                 </div>
                 <div className="w-1/4 h-[800px] space-y-2">
-                    <div className="w-full h-1/2 relative rounded-full overflow-hidden">
+                    <div className="w-full h-1/2 relative rounded-full overflow-hidden bg-brand">
                         <Image src={img2} alt="image 2" layout="fill" objectFit="cover" />
                     </div>
-                    <div className="w-full h-1/2 relative rounded-full overflow-hidden">
+                    <div className="w-full h-1/2 relative rounded-full overflow-hidden bg-brand">
                         <Image src={img3} alt="image 3" layout="fill" objectFit="cover" />
                     </div>
                 </div>
-                <div className="w-1/4 h-[400px] relative rounded-full overflow-hidden">
+                <div className="w-1/4 h-[400px] relative rounded-full overflow-hidden bg-brand">
                     <Image src={img4} alt="image 4" layout="fill" objectFit="cover" />
                 </div>
             </div>
