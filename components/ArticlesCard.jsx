@@ -17,7 +17,7 @@ function ArticlesCard({title, image}){
                 </div>
                 <div>
                     <h4 className="font-medium text-lg">Introducing Flutter in Focus!</h4>
-                    <p className="opacity-60 text-sm">In Flutter, "everything is a widget!"
+                    <p className="opacity-60 text-sm">In Flutter, &quot;everything is a widget!&quot;
                         If you want to better understand the two kinds fo widget,
                         Stateless and Statefull, see the following videos. </p>
                 </div>
