@@ -10,9 +10,9 @@ function NavBarMobile({DisplayMobileMenu}){
     <div className="w-11/12 py-4 mx-auto flex justify-between items-center lg:hidden">
         <a href="#"><Image src={logo} alt="logo" /></a>
         <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center bg-brand-light p-2 rounded-full border-2 border-green-100 hover:cursor-pointer hover:border-brand">
+            {/* <div className="flex justify-center items-center bg-brand-light p-2 rounded-full border-2 border-green-100 hover:cursor-pointer hover:border-brand">
                 <Image src={searchIcon} alt="Search icon" />
-            </div>
+            </div> */}
             <FiMenu className="ml-2 text-3xl cursor-pointer hover:text-brand" onClick={DisplayMobileMenu}/>
         </div>
         
