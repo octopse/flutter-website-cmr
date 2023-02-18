@@ -30,8 +30,8 @@ function Partners(){
                     <Image src={imgPartner2} alt="logo laravel cameroon" />
                 </div>
                 <div className="flex justify-around lg:-mt-4 gap-x-4">
-                    <Image src={imgPartner3}/>
-                    <Image src={imgPartner4}/>
+                    <Image src={imgPartner3} alt="logo" />
+                    <Image src={imgPartner4} alt="logo" />
                 </div>
                 <div className="flex justify-between items-center lg:mt-2 gap-x-4">
                     <a href="https:www.instagram.com/datk.creative"><img src={imgPartner6.src} className="w-auto h-8" alt="logo datk Creative. Instagram and Facebook @datk.creative" /></a>

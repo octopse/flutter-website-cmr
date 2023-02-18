@@ -8,7 +8,7 @@ import { FiMenu } from 'react-icons/fi'
 function NavBarMobile({DisplayMobileMenu}){
     return(
     <div className="w-11/12 py-4 mx-auto flex justify-between items-center lg:hidden">
-        <a href="#"><Image src={logo} /></a>
+        <a href="#"><Image src={logo} alt="logo" /></a>
         <div className="flex justify-center items-center">
             <div className="flex justify-center items-center bg-brand-light p-2 rounded-full border-2 border-green-100 hover:cursor-pointer hover:border-brand">
                 <Image src={searchIcon} alt="Search icon" />
