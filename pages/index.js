@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Head from 'next/head'
-import Articles from '../components/articles'
+import Articles from '../components/Articles'
 import Landing from '../components/Landing'
 import Partners from '../components/Partners'
 import Events from '../components/Events'

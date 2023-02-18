@@ -1,4 +1,4 @@
-import Image from 'Next/Image'
+import Image from 'next/image'
 
 import logo from '../public/images/9.svg'
 import searchIcon from '../public/images/29.svg'

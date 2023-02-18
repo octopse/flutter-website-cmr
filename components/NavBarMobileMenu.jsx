@@ -1,4 +1,4 @@
-import Image from 'Next/Image'
+import Image from 'next/image'
 
 import searchIcon from '../public/images/29.svg'
 import { RxCross2 } from 'react-icons/rx'
