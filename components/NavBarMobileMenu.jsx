@@ -1,7 +1,7 @@
 import Image from 'Next/Image'
 
 import searchIcon from '../public/images/29.svg'
-import { FiMenu } from 'react-icons/fi'
+import { RxCross2 } from 'react-icons/rx'
 
 function NavBarMobileMenu(){
     return(
@@ -11,7 +11,7 @@ function NavBarMobileMenu(){
                     <div className="flex justify-center items-center bg-brand-light p-2 rounded-full border-2 border-green-100 hover:cursor-pointer hover:border-brand">
                         <Image src={searchIcon} alt="Search icon" />
                     </div>
-                    <FiMenu className="ml-2 text-3xl cursor-pointer hover:text-brand" />
+                    <RxCross2 className="ml-2 text-3xl cursor-pointer hover:text-brand" />
                 </div>
                 <div className='flex flex-col gap-y-4 text-lg font-medium text-center pt-8 px-8'>
                     <a href="#" className="hover:text-brand">Events</a>
