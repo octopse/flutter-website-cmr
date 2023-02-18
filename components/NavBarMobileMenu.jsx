@@ -6,7 +6,7 @@ import { RxCross2 } from 'react-icons/rx'
 function NavBarMobileMenu(){
     return(
         <div className='bg-[#33333350] h-full w-full absolute right-0 top-0 flex justify-end z-50'>
-            <div className='bg-white h-full w-4/5 py-6'>
+            <div className='bg-white h-full w-4/5 py-6 fixed'>
                 <div className='border-b-2 border-gray-100 flex justify-end pb-5 px-8'>
                     <div className="flex justify-center items-center bg-brand-light p-2 rounded-full border-2 border-green-100 hover:cursor-pointer hover:border-brand">
                         <Image src={searchIcon} alt="Search icon" />
